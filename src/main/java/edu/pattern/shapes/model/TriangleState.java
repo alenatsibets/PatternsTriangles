@@ -8,6 +8,7 @@ public enum TriangleState {
     }
 
     public static TriangleState detect(double sideA, double sideB, double sideC) {
+        TriangleState state = REGULAR;
         boolean isValid = !(sideA + sideB <= sideC) &&
                 !(sideA + sideC <= sideB) &&
                 !(sideB + sideC <= sideA);
@@ -16,25 +17,26 @@ public enum TriangleState {
             isValid = false;
         }
 
-        if (sideA == sideB && sideB == sideC && isValid) {
-            return EQUILATERAL;
-        }
-
         if ((sideA == sideB || sideB == sideC
                 || sideA == sideC) && isValid) {
-            return ISOSCELES;
+            state = ISOSCELES;
         }
+
+        if (sideA == sideB && sideB == sideC && isValid) {
+            state = EQUILATERAL;
+        }
+
         if ((sideA * sideA + sideB * sideB == sideC * sideC
                 || sideB * sideB + sideC * sideC == sideA * sideA
                 || sideA * sideA + sideC * sideC == sideB * sideB)
                 && isValid) {
-            return RIGHT;
+            state = RIGHT;
         }
 
         if (!isValid) {
-            return INVALID;
+            state = INVALID;
         }
 
-        return REGULAR;
+        return state;
     }
 }
