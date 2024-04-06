@@ -3,6 +3,8 @@ import edu.pattern.shapes.creator.impl.TriangleFactoryImpl;
 import edu.pattern.shapes.exception.TriangleException;
 import edu.pattern.shapes.model.Triangle;
 import edu.pattern.shapes.model.TriangleState;
+import edu.pattern.shapes.reader.TriangleFileReader;
+import edu.pattern.shapes.reader.impl.TriangleFileReaderImpl;
 import edu.pattern.shapes.service.TriangleService;
 import edu.pattern.shapes.service.impl.TriangleServiceImpl;
 import org.junit.jupiter.api.Test;
@@ -11,7 +13,6 @@ import java.util.Arrays;
 import java.util.List;
 
 import static edu.pattern.shapes.constant.TriangleConstants.*;
-import static edu.pattern.shapes.reader.impl.TriangleFileReaderImpl.parseTriangleParameters;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TriangleTest {
@@ -35,6 +36,13 @@ public class TriangleTest {
         Triangle triangle = new Triangle(8, 9, 9);
 
         assertEquals(TriangleState.ISOSCELES, triangle.getState());
+    }
+
+    @Test
+    void testRight() {
+        Triangle triangle = new Triangle(3, 4, 5);
+
+        assertEquals(TriangleState.RIGHT, triangle.getState());
     }
 
     @Test
@@ -67,17 +75,18 @@ public class TriangleTest {
     @Test
     void testCorrectDataReader() throws TriangleException {
         Double[] triangle = {4.0, 5.0, 6.0};
-        List<Double[]> parameters = parseTriangleParameters(TEST_DATA);
+        TriangleFileReader reader = new TriangleFileReaderImpl();
+        List<Double[]> parameters = reader.parseTriangleParameters(TEST_DATA);
 
         assertEquals(Arrays.toString(triangle), Arrays.toString(parameters.get(0)));
     }
 
     @Test
     void testIncorrectDataReader() throws TriangleException {
-        List<Double[]> parameters = parseTriangleParameters(INVALID_TEST_DATA);
-        Double[] triangle = {};
+        TriangleFileReader reader = new TriangleFileReaderImpl();
+        List<Double[]> parameters = reader.parseTriangleParameters(INVALID_TEST_DATA);
 
-        assertEquals(Arrays.toString(triangle), parameters.toString());
+        assertEquals("[]", parameters.toString());
     }
 
     //Test TriangleFactory

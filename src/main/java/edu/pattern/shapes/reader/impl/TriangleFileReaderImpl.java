@@ -2,6 +2,8 @@ package edu.pattern.shapes.reader.impl;
 
 import edu.pattern.shapes.exception.TriangleException;
 import edu.pattern.shapes.reader.TriangleFileReader;
+import edu.pattern.shapes.validator.InputValidator;
+import edu.pattern.shapes.validator.impl.InputValidatorImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,13 +15,12 @@ import java.util.List;
 import java.util.Optional;
 
 import static edu.pattern.shapes.constant.TriangleConstants.PARAMETERS_SEPARATOR;
-import static edu.pattern.shapes.validator.InputValidator.hasTreeParameters;
-import static edu.pattern.shapes.validator.InputValidator.validParameters;
 
 public class TriangleFileReaderImpl implements TriangleFileReader {
     private static final Logger logger = LogManager.getLogger(TriangleFileReaderImpl.class.getName());
 
-    public static List<Double[]> parseTriangleParameters(String file) throws TriangleException {
+    public List<Double[]> parseTriangleParameters(String file) throws TriangleException {
+        InputValidator inputValidator = new InputValidatorImpl();
         List<Double[]> newTriangles = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;
@@ -27,11 +28,11 @@ public class TriangleFileReaderImpl implements TriangleFileReader {
                 try {
                     String[] params = line.split(PARAMETERS_SEPARATOR);
 
-                    if (!hasTreeParameters(params)) {
+                    if (!inputValidator.hasTreeParameters(params)) {
                         continue;
                     }
 
-                    Optional<Double[]> opt = validParameters(params);
+                    Optional<Double[]> opt = inputValidator.validParameters(params);
                     if (opt.isEmpty()) {
                         continue;
                     }

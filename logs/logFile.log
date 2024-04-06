@@ -1,341 +1,259 @@
-[ERROR] 2024-04-04 08:47:38.356 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 08:47:38.364 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[ERROR] 2024-04-04 08:53:45.183 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 08:53:45.186 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[INFO ] 2024-04-04 08:53:45.207 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 08:53:45.207 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 08:53:45.208 [main] TriangleFactoryImpl - A new triangle: Triangle{id=6, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 08:53:45.209 [main] TriangleFactoryImpl - A new triangle: Triangle{id=7, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
-[INFO ] 2024-04-04 08:53:45.209 [main] TriangleFactoryImpl - A new triangle: Triangle{id=8, side A=1.0, side B=2.0, side C=3.0, state=REGULAR}
-[ERROR] 2024-04-04 09:00:04.710 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:00:04.715 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[INFO ] 2024-04-04 09:00:04.733 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 09:00:04.734 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 09:00:04.734 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 09:00:04.735 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
-[INFO ] 2024-04-04 09:00:04.735 [main] TriangleFactoryImpl - A new triangle: Triangle{id=5, side A=1.0, side B=2.0, side C=3.0, state=REGULAR}
-[ERROR] 2024-04-04 09:01:40.569 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:01:40.577 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[INFO ] 2024-04-04 09:01:40.600 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 09:01:40.601 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 09:01:40.601 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 09:01:40.602 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
-[ERROR] 2024-04-04 09:06:15.927 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:06:15.933 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[INFO ] 2024-04-04 09:06:15.941 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:06:15.941 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:06:15.942 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:06:15.960 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 09:06:15.960 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 09:06:15.961 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 09:06:15.961 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:06:15.962 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 09:06:15.963 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:06:15.963 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 09:06:15.963 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:06:15.964 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 09:06:15.964 [main] TriangleServiceImpl - Perimeter calculated: 7.199999999999999
-[INFO ] 2024-04-04 09:06:15.964 [main] TriangleServiceImpl - Area calculated: 1.9162463307205573
-[INFO ] 2024-04-04 09:06:15.964 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:06:15.965 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
-[INFO ] 2024-04-04 09:06:15.966 [main] TriangleServiceImpl - Perimeter calculated: 16.0
-[INFO ] 2024-04-04 09:06:15.966 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 09:06:15.966 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:06:15.967 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:06:15.967 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 09:06:15.968 [main] TriangleObserverImpl - Warehouse updated
-[ERROR] 2024-04-04 09:07:17.718 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:07:17.721 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[INFO ] 2024-04-04 09:07:17.729 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:07:17.730 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:07:17.731 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:07:17.746 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 09:07:17.746 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 09:07:17.746 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 09:07:17.747 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:07:17.747 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 09:07:17.747 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:07:17.748 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 09:07:17.748 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:07:17.748 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 09:07:17.748 [main] TriangleServiceImpl - Perimeter calculated: 7.199999999999999
-[INFO ] 2024-04-04 09:07:17.749 [main] TriangleServiceImpl - Area calculated: 1.9162463307205573
-[INFO ] 2024-04-04 09:07:17.749 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:07:17.749 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
-[INFO ] 2024-04-04 09:07:17.749 [main] TriangleServiceImpl - Perimeter calculated: 16.0
-[INFO ] 2024-04-04 09:07:17.750 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 09:07:17.750 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:07:17.751 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:07:17.751 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 09:07:17.751 [main] TriangleObserverImpl - Warehouse updated
-[ERROR] 2024-04-04 09:25:55.870 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:25:55.877 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[INFO ] 2024-04-04 09:25:55.891 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:25:55.891 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:25:55.893 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:25:55.924 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 09:25:55.925 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 09:25:55.926 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 09:25:55.926 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:25:55.927 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 09:25:55.928 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:25:55.928 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 09:25:55.928 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:25:55.929 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 09:25:55.929 [main] TriangleServiceImpl - Perimeter calculated: 7.199999999999999
-[INFO ] 2024-04-04 09:25:55.930 [main] TriangleServiceImpl - Area calculated: 1.9162463307205573
-[INFO ] 2024-04-04 09:25:55.930 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:25:55.930 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
-[INFO ] 2024-04-04 09:25:55.932 [main] TriangleServiceImpl - Perimeter calculated: 16.0
-[INFO ] 2024-04-04 09:25:55.932 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 09:25:55.932 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:25:55.934 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:25:55.934 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 09:25:55.934 [main] TriangleObserverImpl - Warehouse updated
-[ERROR] 2024-04-04 09:26:59.925 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:26:59.931 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[INFO ] 2024-04-04 09:26:59.937 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:26:59.938 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:26:59.939 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:26:59.974 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 09:26:59.975 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 09:26:59.975 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 09:26:59.975 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:26:59.976 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 09:26:59.977 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:26:59.977 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 09:26:59.977 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:26:59.977 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 09:26:59.978 [main] TriangleServiceImpl - Perimeter calculated: 7.199999999999999
-[INFO ] 2024-04-04 09:26:59.978 [main] TriangleServiceImpl - Area calculated: 1.9162463307205573
-[INFO ] 2024-04-04 09:26:59.978 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:26:59.978 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
-[INFO ] 2024-04-04 09:26:59.980 [main] TriangleServiceImpl - Perimeter calculated: 16.0
-[INFO ] 2024-04-04 09:26:59.980 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 09:26:59.980 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:26:59.981 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:26:59.981 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 09:26:59.982 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:27:57.042 [main] TriangleServiceImpl - Area calculated: -1.0
-[INFO ] 2024-04-04 09:27:57.112 [main] TriangleServiceImpl - Perimeter calculated: -1.0
-[INFO ] 2024-04-04 09:29:30.268 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:29:30.274 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:29:30.276 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:29:30.277 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:29:30.313 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:29:30.314 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:29:30.314 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:29:30.314 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:30:30.968 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:30:30.976 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:30:30.977 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:30:30.978 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:30:31.007 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:30:31.008 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:30:31.008 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:30:31.009 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[ERROR] 2024-04-04 09:35:00.299 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:35:00.303 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[INFO ] 2024-04-04 09:35:00.321 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:35:00.323 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:35:00.326 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:35:00.347 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 09:35:00.347 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 09:35:00.348 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 09:35:00.348 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:35:00.349 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 09:35:00.349 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:35:00.349 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 09:35:00.350 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:35:00.350 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 09:35:00.350 [main] TriangleServiceImpl - Perimeter calculated: 7.199999999999999
-[INFO ] 2024-04-04 09:35:00.351 [main] TriangleServiceImpl - Area calculated: 1.9162463307205573
-[INFO ] 2024-04-04 09:35:00.351 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:35:00.351 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
-[INFO ] 2024-04-04 09:35:00.353 [main] TriangleServiceImpl - Perimeter calculated: 16.0
-[INFO ] 2024-04-04 09:35:00.353 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 09:35:00.353 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:35:00.354 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:35:00.354 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 09:35:00.354 [main] TriangleObserverImpl - Warehouse updated
-[ERROR] 2024-04-04 09:44:02.670 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:44:02.678 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[ERROR] 2024-04-04 09:44:37.404 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:44:37.409 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[ERROR] 2024-04-04 09:45:54.002 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:45:54.008 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[ERROR] 2024-04-04 09:46:30.455 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:46:30.470 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[ERROR] 2024-04-04 09:47:04.746 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:47:04.752 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[INFO ] 2024-04-04 09:52:41.452 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:52:41.459 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:52:41.461 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:52:41.461 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:52:41.492 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 09:52:41.492 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 09:52:41.494 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:52:41.497 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:52:41.499 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:52:41.499 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:52:41.504 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 09:52:41.504 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 09:52:41.505 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:52:41.505 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[ERROR] 2024-04-04 09:52:41.513 [main] TriangleFileReader - Invalid data: 2w.0 3.0 4.1
-[ERROR] 2024-04-04 09:52:41.514 [main] TriangleFileReader - Number of parameters doesn't equals 3: 1.0 2.0
-[INFO ] 2024-04-04 09:52:41.518 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 09:52:41.519 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 09:52:41.519 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:52:41.528 [main] TriangleServiceImpl - Perimeter calculated: -1.0
-[INFO ] 2024-04-04 09:52:41.529 [main] TriangleServiceImpl - Area calculated: -1.0
-[INFO ] 2024-04-04 09:52:41.529 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 09:52:41.530 [main] TriangleServiceImpl - Perimeter calculated: -1.0
-[INFO ] 2024-04-04 09:52:41.530 [main] TriangleServiceImpl - Area calculated: -1.0
-[INFO ] 2024-04-04 09:52:41.530 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:01:34.658 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:01:34.671 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:01:34.672 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:01:34.691 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 10:01:34.692 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 10:01:34.693 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 10:01:34.693 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:01:34.693 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 10:01:34.697 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 10:01:34.698 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 10:01:34.698 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:01:34.699 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 10:02:47.506 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:02:47.510 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:02:47.511 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:02:47.541 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 10:02:47.542 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 10:02:47.542 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 10:02:47.543 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:02:47.543 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 10:02:47.544 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 10:02:47.544 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 10:02:47.544 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:02:47.545 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 10:05:02.901 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:05:02.909 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:05:02.909 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:05:02.911 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:05:02.920 [main] TriangleServiceImpl - Perimeter calculated: 17.0
-[INFO ] 2024-04-04 10:05:02.920 [main] TriangleServiceImpl - Area calculated: 13.635890143294644
-[INFO ] 2024-04-04 10:05:02.921 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:05:02.921 [main] TriangleServiceImpl - Perimeter calculated: 17.0
-[INFO ] 2024-04-04 10:12:04.668 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:12:04.673 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:12:04.675 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:12:04.675 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:12:04.686 [main] TriangleServiceImpl - Perimeter calculated: 17.0
-[INFO ] 2024-04-04 10:12:04.690 [main] TriangleServiceImpl - Area calculated: 13.635890143294644
-[INFO ] 2024-04-04 10:12:04.691 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:12:04.693 [main] TriangleServiceImpl - Perimeter calculated: 17.0
-[INFO ] 2024-04-04 10:27:17.916 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:27:17.920 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:27:17.922 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:27:17.922 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:27:17.927 [main] TriangleServiceImpl - Perimeter calculated: 17.0
-[INFO ] 2024-04-04 10:27:17.927 [main] TriangleServiceImpl - Area calculated: 13.635890143294644
-[INFO ] 2024-04-04 10:27:17.927 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:27:17.928 [main] TriangleServiceImpl - Perimeter calculated: 17.0
-[ERROR] 2024-04-04 10:27:22.766 [main] InputValidator - Invalid data: [2w.0, 3.0, 4.1]
-[ERROR] 2024-04-04 10:27:22.772 [main] InputValidator - Number of parameters doesn't equals 3: [1.0, 2.0]
-[INFO ] 2024-04-04 10:27:22.781 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:27:22.781 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:27:22.783 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:27:22.798 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 10:27:22.799 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 10:27:22.799 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 10:27:22.799 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:27:22.800 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 10:27:22.800 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 10:27:22.800 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 10:27:22.801 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:27:22.801 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 10:27:22.802 [main] TriangleServiceImpl - Perimeter calculated: 7.199999999999999
-[INFO ] 2024-04-04 10:27:22.802 [main] TriangleServiceImpl - Area calculated: 1.9162463307205573
-[INFO ] 2024-04-04 10:27:22.802 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:27:22.802 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
-[INFO ] 2024-04-04 10:27:22.803 [main] TriangleServiceImpl - Perimeter calculated: 16.0
-[INFO ] 2024-04-04 10:27:22.804 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 10:27:22.804 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:27:22.805 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 10:27:22.805 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 10:27:22.806 [main] TriangleObserverImpl - Warehouse updated
-[ERROR] 2024-04-04 10:32:45.632 [main] InputValidator - Invalid data: [2w.0, 3.0, 4.1]
-[ERROR] 2024-04-04 10:32:45.636 [main] InputValidator - Number of parameters doesn't equals 3: [1.0, 2.0]
-[INFO ] 2024-04-04 10:32:45.646 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:32:45.647 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:32:45.648 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:45.662 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[ERROR] 2024-04-04 10:32:45.662 [main] TriangleValidator - Invalid triangle data: [1.0, 1.0, 7.0]
-[INFO ] 2024-04-04 10:32:45.663 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 10:32:45.663 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 10:32:45.663 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:45.663 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[ERROR] 2024-04-04 10:32:45.663 [main] TriangleValidator - Invalid triangle data: [7.0, 5.0, -4.0]
-[ERROR] 2024-04-04 10:32:45.664 [main] TriangleValidator - Invalid triangle data: [-2.0, -3.0, -6.0]
-[INFO ] 2024-04-04 10:32:45.664 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 10:32:45.664 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 10:32:45.664 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:45.665 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[INFO ] 2024-04-04 10:32:45.665 [main] TriangleServiceImpl - Perimeter calculated: 7.199999999999999
-[INFO ] 2024-04-04 10:32:45.665 [main] TriangleServiceImpl - Area calculated: 1.9162463307205573
-[INFO ] 2024-04-04 10:32:45.665 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:45.666 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
-[ERROR] 2024-04-04 10:32:45.666 [main] TriangleValidator - Invalid triangle data: [1.0, 2.0, 3.0]
-[INFO ] 2024-04-04 10:32:45.668 [main] TriangleServiceImpl - Perimeter calculated: 16.0
-[INFO ] 2024-04-04 10:32:45.668 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 10:32:45.668 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:45.669 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 10:32:45.669 [main] TriangleServiceImpl - Area calculated: 12.0
-[INFO ] 2024-04-04 10:32:45.669 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.066 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:32:57.072 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:32:57.074 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.074 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:32:57.102 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 10:32:57.103 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 10:32:57.103 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.109 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:32:57.109 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:32:57.110 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.110 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:32:57.110 [main] TriangleServiceImpl - Perimeter calculated: 17.0
-[INFO ] 2024-04-04 10:32:57.110 [main] TriangleServiceImpl - Area calculated: 13.635890143294644
-[INFO ] 2024-04-04 10:32:57.110 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.111 [main] TriangleServiceImpl - Perimeter calculated: 17.0
-[INFO ] 2024-04-04 10:32:57.125 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:32:57.126 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:32:57.126 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.136 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
-[INFO ] 2024-04-04 10:32:57.137 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 10:32:57.137 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 10:32:57.138 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.138 [main] TriangleFactoryImpl - A new triangle: Triangle{id=5, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
-[INFO ] 2024-04-04 10:32:57.138 [main] TriangleServiceImpl - Perimeter calculated: 18.0
-[INFO ] 2024-04-04 10:32:57.139 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
-[INFO ] 2024-04-04 10:32:57.139 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.139 [main] TriangleFactoryImpl - A new triangle: Triangle{id=6, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
-[ERROR] 2024-04-04 10:32:57.140 [main] TriangleValidator - Invalid triangle data: [1.0, 1.0, 7.0]
-[INFO ] 2024-04-04 10:32:57.144 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:32:57.145 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:32:57.145 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.149 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[INFO ] 2024-04-04 10:32:57.149 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
-[INFO ] 2024-04-04 10:32:57.149 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.150 [main] TriangleServiceImpl - Perimeter calculated: 15.0
-[ERROR] 2024-04-04 10:32:57.157 [main] InputValidator - Invalid data: [2w.0, 3.0, 4.1]
-[ERROR] 2024-04-04 10:32:57.158 [main] InputValidator - Number of parameters doesn't equals 3: [1.0, 2.0]
-[INFO ] 2024-04-04 10:32:57.163 [main] TriangleServiceImpl - Perimeter calculated: 26.0
-[INFO ] 2024-04-04 10:32:57.164 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
-[INFO ] 2024-04-04 10:32:57.164 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.175 [main] TriangleServiceImpl - Perimeter calculated: -1.0
-[INFO ] 2024-04-04 10:32:57.176 [main] TriangleServiceImpl - Area calculated: -1.0
-[INFO ] 2024-04-04 10:32:57.176 [main] TriangleObserverImpl - Warehouse updated
-[INFO ] 2024-04-04 10:32:57.176 [main] TriangleServiceImpl - Perimeter calculated: -1.0
-[INFO ] 2024-04-04 10:32:57.177 [main] TriangleServiceImpl - Area calculated: -1.0
-[INFO ] 2024-04-04 10:32:57.177 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.066 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:25:08.075 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:25:08.077 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.077 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:25:08.094 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:25:08.094 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
+[INFO ] 2024-04-05 17:25:08.094 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.097 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:25:08.097 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:25:08.098 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.098 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:25:08.098 [main] TriangleServiceImpl - Perimeter calculated: 17.0
+[INFO ] 2024-04-05 17:25:08.098 [main] TriangleServiceImpl - Area calculated: 13.635890143294644
+[INFO ] 2024-04-05 17:25:08.098 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.098 [main] TriangleServiceImpl - Perimeter calculated: 17.0
+[INFO ] 2024-04-05 17:25:08.109 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:25:08.109 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:25:08.109 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.115 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
+[INFO ] 2024-04-05 17:25:08.116 [main] TriangleServiceImpl - Perimeter calculated: 26.0
+[INFO ] 2024-04-05 17:25:08.116 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
+[INFO ] 2024-04-05 17:25:08.116 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.116 [main] TriangleFactoryImpl - A new triangle: Triangle{id=5, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
+[INFO ] 2024-04-05 17:25:08.116 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:25:08.116 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
+[INFO ] 2024-04-05 17:25:08.116 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.116 [main] TriangleFactoryImpl - A new triangle: Triangle{id=6, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
+[ERROR] 2024-04-05 17:25:08.117 [main] TriangleValidator - Invalid triangle data: [1.0, 1.0, 7.0]
+[INFO ] 2024-04-05 17:25:08.119 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:25:08.120 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:25:08.120 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.123 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:25:08.123 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:25:08.123 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.124 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[ERROR] 2024-04-05 17:25:08.129 [main] InputValidator - Invalid data: [2w.0, 3.0, 4.1]
+[ERROR] 2024-04-05 17:25:08.129 [main] InputValidator - Number of parameters doesn't equals 3: [1.0, 2.0]
+[INFO ] 2024-04-05 17:25:08.132 [main] TriangleServiceImpl - Perimeter calculated: 26.0
+[INFO ] 2024-04-05 17:25:08.132 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
+[INFO ] 2024-04-05 17:25:08.132 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.138 [main] TriangleServiceImpl - Perimeter calculated: -1.0
+[INFO ] 2024-04-05 17:25:08.138 [main] TriangleServiceImpl - Area calculated: -1.0
+[INFO ] 2024-04-05 17:25:08.138 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:08.138 [main] TriangleServiceImpl - Perimeter calculated: -1.0
+[INFO ] 2024-04-05 17:25:08.139 [main] TriangleServiceImpl - Area calculated: -1.0
+[INFO ] 2024-04-05 17:25:08.139 [main] TriangleObserverImpl - Warehouse updated
+[ERROR] 2024-04-05 17:25:16.218 [main] InputValidator - Invalid data: [2w.0, 3.0, 4.1]
+[ERROR] 2024-04-05 17:25:16.223 [main] InputValidator - Number of parameters doesn't equals 3: [1.0, 2.0]
+[INFO ] 2024-04-05 17:25:16.237 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:25:16.238 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:25:16.239 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:16.264 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
+[INFO ] 2024-04-05 17:25:16.265 [main] TriangleServiceImpl - Perimeter calculated: 12.0
+[INFO ] 2024-04-05 17:25:16.265 [main] TriangleServiceImpl - Area calculated: 6.0
+[INFO ] 2024-04-05 17:25:16.266 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:16.266 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=3.0, side B=4.0, side C=5.0, state=RIGHT}
+[ERROR] 2024-04-05 17:25:16.267 [main] TriangleValidator - Invalid triangle data: [1.0, 1.0, 7.0]
+[INFO ] 2024-04-05 17:25:16.268 [main] TriangleServiceImpl - Perimeter calculated: 26.0
+[INFO ] 2024-04-05 17:25:16.268 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
+[INFO ] 2024-04-05 17:25:16.268 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:16.268 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
+[ERROR] 2024-04-05 17:25:16.269 [main] TriangleValidator - Invalid triangle data: [7.0, 5.0, -4.0]
+[ERROR] 2024-04-05 17:25:16.269 [main] TriangleValidator - Invalid triangle data: [-2.0, -3.0, -6.0]
+[INFO ] 2024-04-05 17:25:16.269 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:25:16.270 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
+[INFO ] 2024-04-05 17:25:16.270 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:16.270 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
+[INFO ] 2024-04-05 17:25:16.271 [main] TriangleServiceImpl - Perimeter calculated: 7.199999999999999
+[INFO ] 2024-04-05 17:25:16.271 [main] TriangleServiceImpl - Area calculated: 1.9162463307205573
+[INFO ] 2024-04-05 17:25:16.271 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:16.271 [main] TriangleFactoryImpl - A new triangle: Triangle{id=5, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
+[ERROR] 2024-04-05 17:25:16.272 [main] TriangleValidator - Invalid triangle data: [1.0, 2.0, 3.0]
+[INFO ] 2024-04-05 17:25:16.273 [main] TriangleServiceImpl - Perimeter calculated: 16.0
+[INFO ] 2024-04-05 17:25:16.274 [main] TriangleServiceImpl - Area calculated: 12.0
+[INFO ] 2024-04-05 17:25:16.274 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:25:16.274 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:25:16.275 [main] TriangleServiceImpl - Area calculated: 12.0
+[INFO ] 2024-04-05 17:25:16.275 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.772 [main] TriangleServiceImpl - Perimeter calculated: 12.0
+[INFO ] 2024-04-05 17:26:17.778 [main] TriangleServiceImpl - Area calculated: 6.0
+[INFO ] 2024-04-05 17:26:17.779 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.809 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:26:17.810 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:26:17.810 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.811 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:26:17.815 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:26:17.816 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
+[INFO ] 2024-04-05 17:26:17.816 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.821 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:26:17.821 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:26:17.822 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.822 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:26:17.822 [main] TriangleServiceImpl - Perimeter calculated: 17.0
+[INFO ] 2024-04-05 17:26:17.823 [main] TriangleServiceImpl - Area calculated: 13.635890143294644
+[INFO ] 2024-04-05 17:26:17.823 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.823 [main] TriangleServiceImpl - Perimeter calculated: 17.0
+[INFO ] 2024-04-05 17:26:17.837 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:26:17.838 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:26:17.838 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.852 [main] TriangleFactoryImpl - A new triangle: Triangle{id=5, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
+[INFO ] 2024-04-05 17:26:17.852 [main] TriangleServiceImpl - Perimeter calculated: 26.0
+[INFO ] 2024-04-05 17:26:17.853 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
+[INFO ] 2024-04-05 17:26:17.853 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.854 [main] TriangleFactoryImpl - A new triangle: Triangle{id=6, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
+[INFO ] 2024-04-05 17:26:17.854 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:26:17.854 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
+[INFO ] 2024-04-05 17:26:17.854 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.854 [main] TriangleFactoryImpl - A new triangle: Triangle{id=7, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
+[ERROR] 2024-04-05 17:26:17.855 [main] TriangleValidator - Invalid triangle data: [1.0, 1.0, 7.0]
+[INFO ] 2024-04-05 17:26:17.858 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:26:17.859 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:26:17.859 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.863 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:26:17.863 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:26:17.864 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.864 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[ERROR] 2024-04-05 17:26:17.868 [main] InputValidator - Invalid data: [2w.0, 3.0, 4.1]
+[ERROR] 2024-04-05 17:26:17.868 [main] InputValidator - Number of parameters doesn't equals 3: [1.0, 2.0]
+[INFO ] 2024-04-05 17:26:17.872 [main] TriangleServiceImpl - Perimeter calculated: 26.0
+[INFO ] 2024-04-05 17:26:17.872 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
+[INFO ] 2024-04-05 17:26:17.872 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.880 [main] TriangleServiceImpl - Perimeter calculated: -1.0
+[INFO ] 2024-04-05 17:26:17.880 [main] TriangleServiceImpl - Area calculated: -1.0
+[INFO ] 2024-04-05 17:26:17.881 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:26:17.881 [main] TriangleServiceImpl - Perimeter calculated: -1.0
+[INFO ] 2024-04-05 17:26:17.881 [main] TriangleServiceImpl - Area calculated: -1.0
+[INFO ] 2024-04-05 17:26:17.881 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.390 [main] TriangleServiceImpl - Perimeter calculated: 12.0
+[INFO ] 2024-04-05 17:29:18.396 [main] TriangleServiceImpl - Area calculated: 6.0
+[INFO ] 2024-04-05 17:29:18.397 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.425 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:29:18.426 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:29:18.427 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.428 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:29:18.432 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:29:18.433 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
+[INFO ] 2024-04-05 17:29:18.434 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.439 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:29:18.439 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:29:18.440 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.440 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:29:18.440 [main] TriangleServiceImpl - Perimeter calculated: 17.0
+[INFO ] 2024-04-05 17:29:18.441 [main] TriangleServiceImpl - Area calculated: 13.635890143294644
+[INFO ] 2024-04-05 17:29:18.441 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.441 [main] TriangleServiceImpl - Perimeter calculated: 17.0
+[INFO ] 2024-04-05 17:29:18.452 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:29:18.453 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:29:18.453 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.465 [main] TriangleFactoryImpl - A new triangle: Triangle{id=5, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
+[INFO ] 2024-04-05 17:29:18.466 [main] TriangleServiceImpl - Perimeter calculated: 26.0
+[INFO ] 2024-04-05 17:29:18.466 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
+[INFO ] 2024-04-05 17:29:18.466 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.466 [main] TriangleFactoryImpl - A new triangle: Triangle{id=6, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
+[INFO ] 2024-04-05 17:29:18.467 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:29:18.467 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
+[INFO ] 2024-04-05 17:29:18.467 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.467 [main] TriangleFactoryImpl - A new triangle: Triangle{id=7, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
+[ERROR] 2024-04-05 17:29:18.468 [main] TriangleValidator - Invalid triangle data: [1.0, 1.0, 7.0]
+[INFO ] 2024-04-05 17:29:18.473 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:29:18.475 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:29:18.479 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.486 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:29:18.486 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:29:18.487 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.487 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[ERROR] 2024-04-05 17:29:18.492 [main] InputValidator - Invalid data: [2w.0, 3.0, 4.1]
+[ERROR] 2024-04-05 17:29:18.492 [main] InputValidator - Number of parameters doesn't equals 3: [1.0, 2.0]
+[INFO ] 2024-04-05 17:29:18.497 [main] TriangleServiceImpl - Perimeter calculated: 26.0
+[INFO ] 2024-04-05 17:29:18.498 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
+[INFO ] 2024-04-05 17:29:18.498 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.505 [main] TriangleServiceImpl - Perimeter calculated: -1.0
+[INFO ] 2024-04-05 17:29:18.505 [main] TriangleServiceImpl - Area calculated: -1.0
+[INFO ] 2024-04-05 17:29:18.505 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:29:18.505 [main] TriangleServiceImpl - Perimeter calculated: -1.0
+[INFO ] 2024-04-05 17:29:18.505 [main] TriangleServiceImpl - Area calculated: -1.0
+[INFO ] 2024-04-05 17:29:18.506 [main] TriangleObserverImpl - Warehouse updated
+[ERROR] 2024-04-05 17:29:57.961 [main] InputValidator - Invalid data: [2w.0, 3.0, 4.1]
+[ERROR] 2024-04-05 17:29:57.967 [main] InputValidator - Number of parameters doesn't equals 3: [1.0, 2.0]
+[INFO ] 2024-04-05 17:36:09.215 [main] TriangleServiceImpl - Perimeter calculated: 12.0
+[INFO ] 2024-04-05 17:36:09.222 [main] TriangleServiceImpl - Area calculated: 6.0
+[INFO ] 2024-04-05 17:36:09.224 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.255 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:36:09.256 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:36:09.256 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.257 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:36:09.260 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:36:09.261 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
+[INFO ] 2024-04-05 17:36:09.262 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.266 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:36:09.267 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:36:09.267 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.268 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:36:09.268 [main] TriangleServiceImpl - Perimeter calculated: 17.0
+[INFO ] 2024-04-05 17:36:09.268 [main] TriangleServiceImpl - Area calculated: 13.635890143294644
+[INFO ] 2024-04-05 17:36:09.269 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.269 [main] TriangleServiceImpl - Perimeter calculated: 17.0
+[INFO ] 2024-04-05 17:36:09.283 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:36:09.284 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:36:09.284 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.292 [main] TriangleFactoryImpl - A new triangle: Triangle{id=5, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
+[INFO ] 2024-04-05 17:36:09.293 [main] TriangleServiceImpl - Perimeter calculated: 26.0
+[INFO ] 2024-04-05 17:36:09.293 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
+[INFO ] 2024-04-05 17:36:09.293 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.293 [main] TriangleFactoryImpl - A new triangle: Triangle{id=6, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
+[INFO ] 2024-04-05 17:36:09.293 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:36:09.293 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
+[INFO ] 2024-04-05 17:36:09.293 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.294 [main] TriangleFactoryImpl - A new triangle: Triangle{id=7, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
+[ERROR] 2024-04-05 17:36:09.294 [main] TriangleValidatorImpl - Invalid triangle data: [1.0, 1.0, 7.0]
+[INFO ] 2024-04-05 17:36:09.297 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:36:09.297 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:36:09.297 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.300 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:36:09.301 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:36:09.301 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.302 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[ERROR] 2024-04-05 17:36:09.307 [main] InputValidatorImpl - Invalid data: [2w.0, 3.0, 4.1]
+[ERROR] 2024-04-05 17:36:09.307 [main] InputValidatorImpl - Number of parameters doesn't equals 3: [1.0, 2.0]
+[INFO ] 2024-04-05 17:36:09.311 [main] TriangleServiceImpl - Perimeter calculated: 26.0
+[INFO ] 2024-04-05 17:36:09.311 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
+[INFO ] 2024-04-05 17:36:09.311 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.318 [main] TriangleServiceImpl - Perimeter calculated: -1.0
+[INFO ] 2024-04-05 17:36:09.318 [main] TriangleServiceImpl - Area calculated: -1.0
+[INFO ] 2024-04-05 17:36:09.318 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:09.319 [main] TriangleServiceImpl - Perimeter calculated: -1.0
+[INFO ] 2024-04-05 17:36:09.319 [main] TriangleServiceImpl - Area calculated: -1.0
+[INFO ] 2024-04-05 17:36:09.319 [main] TriangleObserverImpl - Warehouse updated
+[ERROR] 2024-04-05 17:36:27.241 [main] InputValidatorImpl - Invalid data: [2w.0, 3.0, 4.1]
+[ERROR] 2024-04-05 17:36:27.246 [main] InputValidatorImpl - Number of parameters doesn't equals 3: [1.0, 2.0]
+[INFO ] 2024-04-05 17:36:27.252 [main] TriangleServiceImpl - Perimeter calculated: 15.0
+[INFO ] 2024-04-05 17:36:27.253 [main] TriangleServiceImpl - Area calculated: 9.921567416492215
+[INFO ] 2024-04-05 17:36:27.254 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:27.273 [main] TriangleFactoryImpl - A new triangle: Triangle{id=1, side A=4.0, side B=5.0, side C=6.0, state=REGULAR}
+[INFO ] 2024-04-05 17:36:27.273 [main] TriangleServiceImpl - Perimeter calculated: 12.0
+[INFO ] 2024-04-05 17:36:27.273 [main] TriangleServiceImpl - Area calculated: 6.0
+[INFO ] 2024-04-05 17:36:27.274 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:27.274 [main] TriangleFactoryImpl - A new triangle: Triangle{id=2, side A=3.0, side B=4.0, side C=5.0, state=RIGHT}
+[ERROR] 2024-04-05 17:36:27.275 [main] TriangleValidatorImpl - Invalid triangle data: [1.0, 1.0, 7.0]
+[INFO ] 2024-04-05 17:36:27.275 [main] TriangleServiceImpl - Perimeter calculated: 26.0
+[INFO ] 2024-04-05 17:36:27.276 [main] TriangleServiceImpl - Area calculated: 32.2490309931942
+[INFO ] 2024-04-05 17:36:27.276 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:27.276 [main] TriangleFactoryImpl - A new triangle: Triangle{id=3, side A=8.0, side B=9.0, side C=9.0, state=ISOSCELES}
+[ERROR] 2024-04-05 17:36:27.277 [main] TriangleValidatorImpl - Invalid triangle data: [7.0, 5.0, -4.0]
+[ERROR] 2024-04-05 17:36:27.277 [main] TriangleValidatorImpl - Invalid triangle data: [-2.0, -3.0, -6.0]
+[INFO ] 2024-04-05 17:36:27.277 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:36:27.277 [main] TriangleServiceImpl - Area calculated: 15.588457268119896
+[INFO ] 2024-04-05 17:36:27.278 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:27.278 [main] TriangleFactoryImpl - A new triangle: Triangle{id=4, side A=6.0, side B=6.0, side C=6.0, state=EQUILATERAL}
+[INFO ] 2024-04-05 17:36:27.278 [main] TriangleServiceImpl - Perimeter calculated: 7.199999999999999
+[INFO ] 2024-04-05 17:36:27.278 [main] TriangleServiceImpl - Area calculated: 1.9162463307205573
+[INFO ] 2024-04-05 17:36:27.279 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:27.279 [main] TriangleFactoryImpl - A new triangle: Triangle{id=5, side A=1.9, side B=2.1, side C=3.2, state=REGULAR}
+[ERROR] 2024-04-05 17:36:27.279 [main] TriangleValidatorImpl - Invalid triangle data: [1.0, 2.0, 3.0]
+[INFO ] 2024-04-05 17:36:27.280 [main] TriangleServiceImpl - Perimeter calculated: 16.0
+[INFO ] 2024-04-05 17:36:27.281 [main] TriangleServiceImpl - Area calculated: 12.0
+[INFO ] 2024-04-05 17:36:27.281 [main] TriangleObserverImpl - Warehouse updated
+[INFO ] 2024-04-05 17:36:27.282 [main] TriangleServiceImpl - Perimeter calculated: 18.0
+[INFO ] 2024-04-05 17:36:27.282 [main] TriangleServiceImpl - Area calculated: 12.0
+[INFO ] 2024-04-05 17:36:27.282 [main] TriangleObserverImpl - Warehouse updated

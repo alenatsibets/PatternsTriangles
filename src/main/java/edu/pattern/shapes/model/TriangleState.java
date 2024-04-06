@@ -1,7 +1,7 @@
 package edu.pattern.shapes.model;
 
 public enum TriangleState {
-    INVALID, REGULAR, ISOSCELES, EQUILATERAL;
+    INVALID, REGULAR, ISOSCELES, EQUILATERAL, RIGHT;
 
     public static TriangleState detect(Triangle triangle) {
         return detect(triangle.getSideA(), triangle.getSideB(), triangle.getSideC());
@@ -23,6 +23,12 @@ public enum TriangleState {
         if ((sideA == sideB || sideB == sideC
                 || sideA == sideC) && isValid) {
             return ISOSCELES;
+        }
+        if ((sideA * sideA + sideB * sideB == sideC * sideC
+                || sideB * sideB + sideC * sideC == sideA * sideA
+                || sideA * sideA + sideC * sideC == sideB * sideB)
+                && isValid) {
+            return RIGHT;
         }
 
         if (!isValid) {

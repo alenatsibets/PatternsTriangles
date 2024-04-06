@@ -6,7 +6,5 @@ import java.util.List;
 
 
 public interface TriangleFileReader {
-    static List<Double[]> parseTriangleParameters(String file) throws TriangleException {
-        return null;
-    }
+    List<Double[]> parseTriangleParameters(String file) throws TriangleException;
 }
