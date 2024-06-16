@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 import java.util.List;
 
-import static edu.pattern.shapes.constant.TriangleConstants.*;
+import static edu.pattern.shapes.constant.FileNameConstant.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TriangleTest {
@@ -91,7 +91,7 @@ public class TriangleTest {
 
     //Test TriangleFactory
     @Test
-    void testTriangleFactory() {
+    void testTriangleFactory() throws TriangleException {
         TriangleFactory factory = new TriangleFactoryImpl();
         List<Triangle> result = factory.createTriangles(FACTORY_TEST_DATA);
 

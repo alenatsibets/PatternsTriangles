@@ -18,16 +18,20 @@ public class TriangleFactoryImpl implements TriangleFactory {
     private static final Logger logger = LogManager.getLogger(TriangleFactoryImpl.class.getName());
 
     @Override
-    public List<Triangle> createTriangles(String file) {
-        TriangleValidator triangleValidator = new TriangleValidatorImpl();
+    public List<Triangle> createTriangles(String file) throws TriangleException {
         List<Double[]> parameters;
         try {
             TriangleFileReader reader = new TriangleFileReaderImpl();
             parameters = reader.parseTriangleParameters(file);
         } catch (TriangleException e) {
-            logger.info("Don't have parameters");
-            throw new RuntimeException(e);
+            logger.info("Don't have parameters " + e);
+            throw new TriangleException(e);
         }
+        return createTriangles(parameters);
+    }
+
+    public List<Triangle> createTriangles(List<Double[]> parameters) {
+        TriangleValidator triangleValidator = new TriangleValidatorImpl();
         List<Triangle> newTriangles = new ArrayList<>();
         for (Double[] tr : parameters) {
             if (triangleValidator.isValid(tr)) {

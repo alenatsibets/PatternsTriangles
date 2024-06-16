@@ -58,10 +58,10 @@ public class Triangle implements TriangleObservable {
     }
 
     public void setState(TriangleState state) {
-        if (state != null) {
+        if (state != null && this.state != state) {
             this.state = state;
+            notifyObservers();
         }
-        notifyObservers();
     }
 
     @Override

@@ -26,7 +26,7 @@ public class InputValidatorImpl implements InputValidator {
             sideB = Double.parseDouble(params[1]);
             sideC = Double.parseDouble(params[2]);
         } catch (NumberFormatException e) {
-            logger.error("Invalid data: " + Arrays.toString(params));
+            logger.error("Invalid data: " + Arrays.toString(params) + e);
             return Optional.empty();
         }
         Double[] triangle = new Double[]{sideA, sideB, sideC};

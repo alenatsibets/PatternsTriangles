@@ -3,7 +3,7 @@ package edu.pattern.shapes.service;
 import edu.pattern.shapes.model.Triangle;
 
 public interface TriangleService {
-    public double perimeter(Triangle triangle);
+    double perimeter(Triangle triangle);
 
-    public double area(Triangle triangle);
+    double area(Triangle triangle);
 }
